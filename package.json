@@ -1,6 +1,6 @@
 {
-  "name": "svgfont2js",
-  "version": "0.1.3",
+  "name": "@ladjs/svgfont2js",
+  "version": "1.0.0",
   "description": "Parse SVG font glyphs into JSON objects with normalized coordinates",
   "keywords": [
     "SVG",
@@ -16,13 +16,13 @@
   "devDependencies": {
     "babel": "^4.7.8"
   },
-  "homepage": "https://github.com/riobard/svgfont2js",
+  "homepage": "https://github.com/ladjs/svgfont2js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/riobard/svgfont2js.git"
+    "url": "https://github.com/ladjs/svgfont2js.git"
   },
   "bugs": {
-    "url": "https://github.com/riobard/svgfont2js/issues"
+    "url": "https://github.com/ladjs/svgfont2js/issues"
   },
   "scripts": {
     "build": "babel src.js > index.js",
