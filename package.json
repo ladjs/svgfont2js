@@ -1,14 +1,11 @@
 {
   "name": "@ladjs/svgfont2js",
-  "version": "0.0.0",
   "description": "Parse SVG font glyphs into JSON objects with normalized coordinates",
-  "keywords": [
-    "SVG",
-    "font",
-    "glyph",
-    "JSON"
-  ],
-  "main": "index.js",
+  "version": "0.0.0",
+  "author": "Riobard Zhan <me@riobard.com> (https://riobard.com)",
+  "bugs": {
+    "url": "https://github.com/ladjs/svgfont2js/issues"
+  },
   "dependencies": {
     "svgpath": "^2.5.0",
     "xml2js": "^0.4.23"
@@ -19,18 +16,24 @@
     "@babel/preset-env": "^7.16.11"
   },
   "homepage": "https://github.com/ladjs/svgfont2js",
+  "keywords": [
+    "JSON",
+    "SVG",
+    "font",
+    "glyph"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ladjs/svgfont2js.git"
   },
-  "bugs": {
-    "url": "https://github.com/ladjs/svgfont2js/issues"
-  },
   "scripts": {
-    "test": "npm run build",
     "build": "babel src.js --out-file index.js",
-    "env": "env"
-  },
-  "author": "Riobard Zhan <me@riobard.com> (https://riobard.com)",
-  "license": "MIT"
+    "env": "env",
+    "test": "npm run build"
+  }
 }
