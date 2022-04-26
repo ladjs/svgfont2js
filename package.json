@@ -1,7 +1,7 @@
 {
   "name": "@ladjs/svgfont2js",
   "description": "Parse SVG font glyphs into JSON objects with normalized coordinates",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Riobard Zhan <me@riobard.com> (https://riobard.com)",
   "bugs": {
     "url": "https://github.com/ladjs/svgfont2js/issues"
