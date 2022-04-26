@@ -1,4 +1,4 @@
-# svgfont2js
+# @ladjs/svgfont2js
 
 Parse SVG font glyphs into JSON objects with normalized coordinates. The
 resulting path data can be used directly in SVG documents or HTML5 canvas API to
@@ -9,7 +9,7 @@ draw glyphs.
 ## Installation
 
 ```sh
-npm install svgfont2js
+npm install @ladjs/svgfont2js
 ```
 
 
@@ -18,7 +18,7 @@ npm install svgfont2js
 
 ```JavaScript
 var fs = require("fs");
-var svgfont2js = require("svgfont2js");
+var svgfont2js = require("@ladjs/svgfont2js");
 
 console.log(svgfont2js(fs.readFileSync("font.svg", "utf8")));
 ```
