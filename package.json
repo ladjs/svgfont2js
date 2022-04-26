@@ -10,11 +10,13 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "svgpath": "^1.0.7",
-    "xml2js": "^0.4.5"
+    "svgpath": "^2.5.0",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
-    "babel": "^4.7.8"
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11"
   },
   "homepage": "https://github.com/ladjs/svgfont2js",
   "repository": {
@@ -25,7 +27,8 @@
     "url": "https://github.com/ladjs/svgfont2js/issues"
   },
   "scripts": {
-    "build": "babel src.js > index.js",
+    "test": "npm run build",
+    "build": "babel src.js --out-file index.js",
     "env": "env"
   },
   "author": "Riobard Zhan <me@riobard.com> (https://riobard.com)",
